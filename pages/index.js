@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useState, useEffect } from 'react'
-import slika from '../slike/Slika3.png'
+import slika from '../slike/Slika.jpg'
 import Router from 'next/router'
 
 export default function Home() {
@@ -42,8 +42,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Fit In 15</title>
-        <meta name="description" content="Fit In 15" />
+        <title>Intelligent Cryptocurrency</title>
+        <meta name="description" content="Intelligent Cryptocurrency" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {email &&
@@ -57,34 +57,33 @@ export default function Home() {
         </div>
       }
       <header className={styles.header}>
-        <p style={{ fontSize: '20px' }}>Fit In 15</p>
+        <p style={{ fontSize: '20px' }}>Intelligent Cryptocurrency</p>
         <p>Home</p>
       </header>
       <main className={styles.main}>
-        <h1 style={{ color: '#6c63ff' }} >Learn a simple way to track calories</h1>
+        <h1 style={{ color: '#6c63ff' }} >THE REAL REASON YOUR INVESTMENTS ARE NOT SUCCESSFUL</h1>
+        <p style={{ margin: 0, marginBottom: '15px' }}>If you want to know more click on the image</p>
         <div onClick={(e) => handle()} style={{ cursor: 'pointer' }}>
-          <Image src={slika} alt='lulu' />
+          <Image src={slika} alt='lulu' width='980px' height="650px" />
         </div>
         <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>The last fat loss plan you will need</h2>
         <p>
-          Have you ever spent money on a workout plan that just did not cut it?
+          You have heard your friends talk about it.<br/> 
+          You need to invest your money... How? Where? Why?<br/>
+          Simple answer, Cryptocurrencies.
           <br/> <br/>
-          Maybe you even joined a gym with great intentions, but never quick knew where to start.
-          If so, your not alone.
+          But, We do not want you to make the same mistakes everyone else does when it comes to crypto.
           <br/> <br/>
-          Fitness is a multi-billion dollar industry.
+          Cryptocurrency veteran Dirk de Bruin and his expert team have been researching relentlessly the best way to stop you from making these mistakes but also a way to teach you the new necessary skills surrounding crypto.
+          <br/> 
+          Not only has he put all this unique knowledge into a masterclass that will teach you the basics around crypto but he will also tell you the next 3 coins he will be personally investing in.
+          <br/> 
+          Best part is, It is completely 100% FREE for a limited time.
+          <br/> 
+          I HIGHLY recommend to stop what you are doing right now and click the link below to watch Dirks crypto masterclass. Your financial future could depend on it!
           <br/> <br/>
-          More new exercise devices are hitting the market every single day, and it seems like new gyms are
-          popping up all over the place.
-          <br/> <br/>
-          The truth is you do not need a crazy amount of equipment to burn fat.
-          Getting in the best shape of your life does not have to be expensive.
-          <br/> <br/>
-          In fact, you can get in great shape for no cost. But you need a plan that grows with you.
-          All you need is my step-by-step guide, and its less than $10.
-          <br/> <br/>
-          Click the link below to take a look at what you will get...</p>
-        <p>If you want to know more about this just <span style={{ color: '#6c63ff', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => handle()}>click here to watch video about it</span></p>
+        </p>
+        <p>If you want to know more about Cryptocurrency just <span style={{ color: '#6c63ff', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => handle()}>click here </span></p>
       </main>
     </div>
   )

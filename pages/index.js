@@ -66,7 +66,7 @@ export default function Home() {
         <div onClick={(e) => handle()} style={{ cursor: 'pointer' }}>
           <Image src={slika} alt='lulu' width='980px' height="650px" />
         </div>
-        <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>The last fat loss plan you will need</h2>
+        <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>The last cryptocurrency guide you will need</h2>
         <p>
           You have heard your friends talk about it.<br/> 
           You need to invest your money... How? Where? Why?<br/>

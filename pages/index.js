@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useState, useEffect } from 'react'
-import slika from '../slike/Slika.jpg'
+import tuna from '../slike/HranaTuna.jpg'
+import chicken from '../slike/HranaChicken.jpg'
+import cremy from '../slike/HranaCreamy.jpg'
 import Router from 'next/router'
 
 export default function Home() {
@@ -11,7 +13,7 @@ export default function Home() {
   const [nema, setnema] = useState(false)
 
 
-  
+
   const emailSaving = async () => {
     if (mail) {
       fetch('/api/users', {
@@ -40,8 +42,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Intelligent Cryptocurrency</title>
-        <meta name="description" content="Intelligent Cryptocurrency" />
+        <title>Keto Diet Recipes</title>
+        <meta name="description" content="Keto Diet Recipes" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {email &&
@@ -55,34 +57,127 @@ export default function Home() {
         </div>
       }
       <header className={styles.header}>
-        <p style={{ fontSize: '20px' }}>Intelligent Cryptocurrency</p>
+        <p style={{ fontSize: '20px' }}>Keto diet recipes</p>
         <p>Home</p>
       </header>
-      <main className={styles.main}>
-        <h1 style={{ color: '#6c63ff' }} >THE REAL REASON YOUR INVESTMENTS ARE NOT SUCCESSFUL</h1>
-        <p style={{ margin: 0, marginBottom: '15px' }}>If you want to know more click on the image</p>
-        <div onClick={(e) => handle()} style={{ cursor: 'pointer' }}>
-          <Image src={slika} alt='lulu' width='980px' height="650px" />
+      <main className={styles.main} >
+        <h1 style={{ color: '#6c63ff', margin: 0 }} >3 FREE KETO RECiPES FOR FAT LOSS</h1>
+        <div>
+          <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>Tangy Tuna Tastebud Tantaliser</h2>
+          <div style={{ marginTop: '20px' }}>
+            <div>
+              <Image src={tuna} />
+            </div>
+            <div>
+              <h3>Ingredients:</h3>
+              <p>
+                ● 4 oz tuna (in olive oil, drained).<br />
+                ● 4 eggs.<br />
+                ● 2 oz Iceberg lettuce (chopped).<br />
+                ● 2 oz cherry tomatoes.<br />
+                ● ½ cup celery (chopped).<br />
+                ● ½ cup mayonnaise.<br />
+                ● ½ red onion (diced).<br />
+                ● ½ lemon (juiced and zest).<br />
+                ● 2 tbsp olive oil.<br />
+                ● 2 tbsp capers.<br />
+                ● 1 tbsp Dijon mustard.<br />
+                ● 2 tsp white wine vinegar.<br />
+                ● Salt and pepper.<br />
+              </p>
+              <h3>Instructions:</h3>
+              <p>
+                ● In a large bowl, mix together tuna, celery. Mayonnaise, onion, lemon juice and zest,<br />
+                olive oil, capers and mustard.<br />
+                ● In a large saucepan, bring water to boil; add a tsp salt and white wine vinegar. Crack in<br />
+                the eggs and allow to simmer for 3-4 minutes.<br />
+                ● Place lettuce and tomatoes on a serving plate, place eggs on top and tuna mix to side.<br />
+              </p>
+              <h3>Nutritional Information:</h3>
+              <p>
+                Fat: 70g<br />
+                Carbohydrates: 6g<br />
+                Protein: 30g<br />
+                Calories: 767<br />
+              </p>
+            </div>
+          </div>
         </div>
-        <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>The last cryptocurrency guide you will need</h2>
-        <p>
-          You have heard your friends talk about it.<br/> 
-          You need to invest your money... How? Where? Why?<br/>
-          Simple answer, Cryptocurrencies.
-          <br/> <br/>
-          But, We do not want you to make the same mistakes everyone else does when it comes to crypto.
-          <br/> <br/>
-          Cryptocurrency veteran Dirk de Bruin and his expert team have been researching relentlessly the best way to stop you from making these mistakes but also a way to teach you the new necessary skills surrounding crypto.
-          <br/> 
-          Not only has he put all this unique knowledge into a masterclass that will teach you the basics around crypto but he will also tell you the next 3 coins he will be personally investing in.
-          <br/> 
-          Best part is, It is completely 100% FREE for a limited time.
-          <br/> 
-          I HIGHLY recommend to stop what you are doing right now and click the link below to watch Dirks crypto masterclass. Your financial future could depend on it!
-          <br/> <br/>
-        </p>
-        <p>If you want to know more about Cryptocurrency just <span style={{ color: '#6c63ff', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => handle()}>click here </span></p>
+        <div>
+          <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>Chicken and Bacon One-Pot Heaven</h2>
+          <div style={{ marginTop: '20px' }}>
+            <div>
+              <Image src={chicken} width='300px' height='400px' />
+            </div>
+            <div>
+              <h3>Ingredients:</h3>
+              <p>
+                ● 1 chicken breast (cut into slices). <br />
+                ● 10 oz bacon (chopped).<br />
+                ● 16 oz cabbage (chopped).<br />
+                ● 3 oz butter.<br />
+                ● Salt and pepper.<br />
+              </p>
+              <h3>Instructions:</h3>
+              <p>
+                ● Heat half of the butter in a large frying pan and fry chicken until nearly cooked through<br />
+                and slightly browned.<br />
+                ● Add the bacon to the pan and fry until crispy; move all meat to one side of the pan.<br />
+                ● Add remaining butter and fry cabbage until soft.<br />
+                ● Season with salt and pepper.<br />
+              </p>
+              <h3>Nutritional Information:</h3>
+              <p>
+                Fat: 82g<br />
+                Carbohydrates: 9g<br />
+                Protein: 56g<br />
+                Calories: 1020<br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>Mediterranean Creamy Garlic Chicken</h2>
+          <div style={{ marginTop: '20px' }}>
+            <div>
+              <Image src={cremy} />
+            </div>
+            <div>
+              <h3>Ingredients:</h3>
+              <p>
+                ● 24 oz chicken breast (skinless and sliced).<br />
+                ● 1 cup spinach (fresh, chopped). <br />
+                ● 1 cup thick cream. <br />
+                ● ½ cup chicken broth. <br />
+                ● ½ cup sun-dried tomatoes. <br />
+                ● ½ cup parmesan (grated). <br />
+                ● 2 tbsp olive oil. <br />
+                ● 1 tsp Italian seasoning. <br />
+                ● 1 tsp garlic powder. <br />
+              </p>
+              <h3>Instructions:</h3>
+              <p>
+                ● Add olive oil to a large frying pan and fry chicken until completely cooked through and <br />
+                browned. Set chicken aside on a plate. <br />
+                ● Add chicken broth, thick cream, Italian seasoning, garlic powder and parmesan to the <br />
+                pan, whisk gently until sauce begins to thicken. <br />
+                ● Add spinach and tomatoes to the sauce and simmer until spinach begins to wilt, add <br />
+                chicken back to pan. <br />
+              </p>
+              <h3>Nutritional Information:</h3>
+              <p>
+                Fat: 26g <br />
+                Carbohydrates: 7g <br />
+                Protein: 29g <br />
+                Calories: 369 <br />
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
+      <footer>
+        <p style={{width:'100vw',textAlign:'center'}}>if you wanna get more quality recipes you can check their website <span style={{color:'#6c63ff',textDecoration:'underline',textAlign:'center',cursor:'pointer'}} onClick={()=>handle()}>here</span></p>
+      </footer>
     </div>
   )
 }

@@ -32,7 +32,7 @@ export default function Home() {
     }
   }
   const handle = async () => {
-    Router.push('https://www.digistore24.com/redir/340745/mlstomic/')
+    Router.push('https://www.digistore24.com/redir/283755/mata2nice/')
   }
   const keyUp = (e) => {
     if (e.keyCode == 13) {

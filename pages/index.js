@@ -61,7 +61,7 @@ export default function Home() {
         <p>Home</p>
       </header>
       <main className={styles.main} >
-        <h1 style={{ color: '#6c63ff', margin: 0 }} >3 FREE KETO RECiPES FOR FAT LOSS</h1>
+        <h1 style={{ color: '#6c63ff', margin: 0 }} >3 FREE KETO RECIPES FOR FAT LOSS</h1>
         <div>
           <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>Tangy Tuna Tastebud Tantaliser</h2>
           <div style={{ marginTop: '20px' }}>
@@ -176,7 +176,7 @@ export default function Home() {
         </div>
       </main>
       <footer>
-        <p style={{width:'100vw',textAlign:'center'}}>if you wanna get more quality recipes you can check their website <span style={{color:'#6c63ff',textDecoration:'underline',textAlign:'center',cursor:'pointer'}} onClick={()=>handle()}>here</span></p>
+        <p style={{width:'100vw',textAlign:'center'}}>if you wanna get more quality recipes you can check our website <span style={{color:'#6c63ff',textDecoration:'underline',textAlign:'center',cursor:'pointer'}} onClick={()=>handle()}>here</span></p>
       </footer>
     </div>
   )

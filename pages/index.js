@@ -61,7 +61,7 @@ export default function Home() {
         <p>Home</p>
       </header>
       <main className={styles.main} >
-        <h1 style={{ color: '#6c63ff', margin: 0 }} >3 FREE KETO RECIPES FOR FAT LOSS</h1>
+        <h1 style={{ color: '#6c63ff', margin: 0 }} >KETO RECIPES FOR FAT LOSS</h1>
         <div>
           <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>Tangy Tuna Tastebud Tantaliser</h2>
           <div style={{ marginTop: '20px' }}>
